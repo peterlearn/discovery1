@@ -48,3 +48,13 @@ You can view the comments in `cmd/discovery/discovery.toml` to understand the me
 ## Feedback
 
 Please report bugs, concerns, suggestions by issues, or join QQ-group 716486124 to discuss problems around source code.
+
+## successful build the discovery docker image
+### docker build -t perterci/discovery -f Dockerfile .
+
+## discovery referring apis
+````
+http://127.0.0.1:7171/discovery/fetch/all  //获取所有节点信息
+http://127.0.0.1:7171/discovery/nodes  // 获取nodes信息 
+http://127.0.0.1:7171/discovery/fetch?zone=zone01&env=dev&appid=xy3-1.new-chat&status=1 //获取服务
+````
