@@ -54,7 +54,11 @@ Please report bugs, concerns, suggestions by issues, or join QQ-group 716486124 
 
 ## discovery referring apis
 ````
+docker run --itd --name perterci/discovery -p 7171:7171 perterci/discovery /bin/sh
+
 http://127.0.0.1:7171/discovery/fetch/all  //获取所有节点信息
 http://127.0.0.1:7171/discovery/nodes  // 获取nodes信息 
 http://127.0.0.1:7171/discovery/fetch?zone=zone01&env=dev&appid=xy3-1.new-chat&status=1 //获取服务
+
+
 ````
